@@ -20,5 +20,10 @@ function dateCompare (time) {
   else if( delta / 60 / 60 / 24 / 30 > 12 && delta / 60 / 60 / 24 / 30 < 13 )
     return "一年前"
   else
-    return [time.getFullYear(), time.getMonth()+1, time.getDate()].join('-')
+    var year = time.getFullYear()
+    var month = time.getMonth() + 1
+    var day = time.getDate()
+    if( month < 10 ) month = '0'+ month
+    if( day < 10 ) day = '0' + day
+    return [year, month, day].join('-')
 }
