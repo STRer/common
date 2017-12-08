@@ -27,3 +27,4 @@ function dateCompare (time) {
     if( day < 10 ) day = '0' + day
     return [year, month, day].join('-')
 }
+
