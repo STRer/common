@@ -1,0 +1,23 @@
+{
+    "pages" : [
+        {
+			"name": "test",
+            "path" : "pages/test/test"
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        "navigationBarTitleText" : "Sunny",
+        "navigationBarBackgroundColor" : "#000",
+        "backgroundColor" : "#F2F2F2"
+    },
+    "condition" : {
+        "current" : 0,
+        "list" : [{
+                "name" : "test",
+                "path" : "pages/test/test",
+                "query" : ""
+            }		
+        ]
+    }
+}
