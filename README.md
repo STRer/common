@@ -7,4 +7,4 @@
 
 
 # 奉献板
-[common/uniDragDemo](https://github.com/STRer/common/tree/master/uniDragDemo) 作者：[妖精](https://github.com/CoderSunnyLau/)
+[common/uniDragDemo](https://github.com/STRer/common/tree/master/uniDrag) 作者：[妖精](https://github.com/CoderSunnyLau/)
